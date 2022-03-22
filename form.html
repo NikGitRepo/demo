@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="webimages\webicon.png" type="image/x-icon" sizes="16*16">
+    <link rel="stylesheet" href="N:\basichtml\stylesheeets\forms.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<header>
+    <h3>HTML forms Demo</h3>
+</header>
+<body>
+    <form>
+    <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname"><br>
+    <label for="number">Identiy No:</label>
+        <input type="text" id="number" name="number"><br>
+    <label for="gender" >Gender:</label>
+        <input type="radio" name="gender" id="male" value="male"><label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female"><label for="female">Female</label>
+        <input type="radio" name="gender" id="other" value="other"><label for="others">Other</label><br>
+    <label for="nation" id ="nation">Nation:</label>
+        <input type="checkbox" name="indian" id="ind" value="indian">
+    <label for="ind">india</label>
+        <input type="checkbox"  name="usa" id="usa" value="u.s.a">
+    <label for="usa">u.s.a</label>
+        <input type="checkbox" name="other" id="oth" value="other">
+    <label for="oth">other</label>
+    </form>
+    <button onclick="valid()">SUBMIT</button><hr>
+    <script src="N:\basichtml\jscriptfiles\jsform.js"></script>
+    <h5>you have entered the following details.</h5>
+    <div class="output">
+    <p id="x1"></p>
+    <p id="x2"></p>
+    <p id="x3"></p>
+    <p id="x4"></p>
+    </div>
+</body>
+</html>
