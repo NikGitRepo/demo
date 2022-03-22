@@ -1,0 +1,10 @@
+body         {background-color: rgb(209, 144, 121);text-align: center;}
+header       {color:rgb(163, 28, 4);background-color: rgb(167, 231, 39);padding: 4px 0 8px 0; text-align:center;}
+ul           {color:rgb(1, 32, 15);list-style-type:lower-alpha;}
+.list        {width: 50%;float: left;text-align: center;}
+th,td,table  {width:fit-content;text-align: right;padding:3px 6px 3px 6px;border: 3px solid black;float: center;}
+.tab1        {margin-left: auto;margin-right: auto;color: whitesmoke;}
+.rowcol      {width: 50%;float: left;}
+.tabc        {margin-left: 5%;background-color: darkgray;}
+.tabr        {margin-right: 10%;background-color: darkgray;}
+footer       {background-color: grey;font-size: 18px;padding: 8px 0 8px 0;}

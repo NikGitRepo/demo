@@ -1,0 +1,7 @@
+h2        {color:rgb(82, 54, 4); }
+.parabg   { background-image:url('N:/basichtml/webimages/three.jpg');background-size: cover;color: thistle;}
+body      {background-color: yellowgreen;text-align: center;}
+a:link, a:visited{ background-color:orange;color: black;padding: 4px 12px 2px 12px;text-decoration: black;display: inline-block;}  
+a:hover, a:active{background-color: red;} 
+footer{ background-color: burlywood;padding: 10px 10px 10px 10px;}
+img{border: 3px solid black;}

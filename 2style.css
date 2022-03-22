@@ -1,0 +1,11 @@
+header   {background-color: mediumseagreen;text-align: center;}
+body     {background-color:cadetblue;text-align: center;line-height: 12px;}
+h1       {color:rgb(236, 75, 75);font-size: medium;font-style: oblique;}
+.tex1    {float:center;width: 100%;}
+.tex2    {float:left;width: 10%;}
+.tex3    {float:right;width: 10%;}
+abbr     {text-align: center;color:orangered;}
+address  {text-align: justify;}
+.footer  {background-color:black;color:whitesmoke;font-family: Georgia, 'Times New Roman', Times, serif;
+           bottom: 0;width: 100%;height: 60px;line-height: 1.2;}
+address  {text-align: center;}
